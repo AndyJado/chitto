@@ -1,9 +1,9 @@
 # 全选
-# cltr+c (想办法复制到系统剪切板)
+# cltr+c (需要复制到系统剪切板)
 # 回到终端
 # cd
 # vi .cargo/config.toml
-# i (好奇心强的查一查vim怎么用)
+# i (可以查一查vim怎么用)
 # cltr + v
 [source.crates-io]
 registry = "https://github.com/rust-lang/crates.io-index"

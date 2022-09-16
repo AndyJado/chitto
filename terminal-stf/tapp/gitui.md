@@ -9,4 +9,3 @@
 不可以做什么
 
 `cargo install gitui`
-

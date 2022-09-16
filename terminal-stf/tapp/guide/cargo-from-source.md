@@ -15,7 +15,7 @@ ln -s $PWD/runtime ~/.config/helix/runtime
 
  就是windows的快捷方式嘛?
 
-## xtask
+## wa-xtask
 
 ```
 git clone https://github.com/rust-lang/rust-analyzer.git && cd rust-analyzer

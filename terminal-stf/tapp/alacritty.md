@@ -1,10 +1,8 @@
 # alacritty
 
-GPU倚赖, rust编写的终端
+没有标签页, 字体渲染偏胖, vim模式不知道咋用
 
-看着丑吃着香!
-
-所有糟心的小bug都不见辣!
+快, 真的快, 安心, 真的舒服
 
 [mac下安装dmg提示不安全.](https://alacritty.org/)
 

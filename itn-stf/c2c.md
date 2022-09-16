@@ -12,5 +12,3 @@ anyway
 
 - I set a fixed upper {yearly | monthly} revenue
 
-
-
