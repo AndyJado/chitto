@@ -8,5 +8,3 @@ I'm gonna go
 
 `match` `iter` 
 
-and `tail recurrsion`
-

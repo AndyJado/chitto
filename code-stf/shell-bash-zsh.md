@@ -6,7 +6,7 @@ shell教操作系统做事.
 
 bash是好用的shell
 
-zsh我不懂, 但在用.
+zsh我在用但想扔
 
 [喊操作系统做事](https://linuxcommand.org/lc3_learning_the_shell.php)
 
