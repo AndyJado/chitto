@@ -3,6 +3,8 @@
 e.g. `helix`
 
 ```
+cd
+mkdir tapps && cd tapps
 git clone https://github.com/helix-editor/helix
 cd helix
 cargo install --path helix-term
