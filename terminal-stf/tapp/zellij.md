@@ -2,13 +2,13 @@
 
 my laptop threats burning itself to ash if I keep do what I do
 
-we made a deal that me moving the heavy work to a remote server[^1]
+we made a deal that me moving the heavy work to a remote server
 
 I rent a cheap one from HUAWEI and I'm faggy about it
 
 I do `ssh @129.31.0.12` where the IP address is made up because I cannot remember
 
-and I blindly type my password `fff` which is not made up because I remember
+I type my password `fff` and I hit `enter` which is not made up
 
 I see `root` and I know I'm connected
 
@@ -16,7 +16,7 @@ it's a fake computer without a physical body so I don't have to develop any feel
 
 it something sad for faggy
 
-so I dump my code to the server
+so I dump my code to the server, which is quite painful through unself-hosted git
 
 I type in my command and it start running
 

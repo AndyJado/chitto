@@ -2,23 +2,15 @@
 
 e.g. `helix`
 
-```
-cd
-mkdir tapps && cd tapps
+```sh
 git clone https://github.com/helix-editor/helix
 cd helix
 cargo install --path helix-term
-ln -s $PWD/runtime ~/.config/helix/runtime
-
 ```
-
-`ln -s` : create symbolic link
-
- 就是windows的快捷方式嘛?
 
 ## wa-xtask
 
-```
+```sh
 git clone https://github.com/rust-lang/rust-analyzer.git && cd rust-analyzer
 cargo xtask install --server
 ```
