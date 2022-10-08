@@ -1,0 +1,3 @@
+把git放到editor里
+
+还是把editor放git里
