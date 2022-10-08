@@ -1,10 +1,10 @@
 ## wa
 
-I been used `wa` as prefix in my `chitto` repo as a convention
+I been used `wa` as prefix in my `chitto` for quite a while
+
+not like 'yy' or 'la'
 
 it's quite a certain one
-
-not like 'fkn' or 'la'
 
 I don't really know what `la` means
 
@@ -29,6 +29,16 @@ project a 0 rank tensor on intention gives a `word`
 project a 1 rank tensor on intention gives a `line`
 
 iz?
+
+if the word itself && its location together represents the direction?
+
+tensor! tensor!
+
+you can make anything a direction
+
+then you want sth to describe that
+
+you use tensor
 
 `wa iz this word`
 
