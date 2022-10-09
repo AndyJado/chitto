@@ -1,4 +1,4 @@
-# WSL
+## WSL
 
 [在windows中使用linux](https://docs.microsoft.com/en-us/windows/wsl/install)
 
@@ -8,19 +8,19 @@
 
 `wsl`
 
-已经在linux啦!
+**你需要按下回车，下同**
 
-接下来
+此时你应该发现自己在linux系统下了
 
-[下载Rust](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos) 和
+[下载Rust](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos)
 
 `sudo apt install build-essential`
 
-人在国内的话, 在powershell输入
+## 软件依赖换成国内的下载地址
 
-`cd` 
+`cd`
 
-回车
+这是让你回到`~`
 
 `vi ./.cargo/config`
 
