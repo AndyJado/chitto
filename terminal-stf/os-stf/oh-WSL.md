@@ -24,6 +24,8 @@
 
 `vi ./.cargo/config`
 
+左下角会显示 "vi ./.cargo/config" [New File]
+
 要使用一点点vi
 
 [更改为清华的镜像源](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git/)
