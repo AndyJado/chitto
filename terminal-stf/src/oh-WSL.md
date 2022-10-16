@@ -30,4 +30,5 @@
 
 [更改为清华的镜像源](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git/)
 [或者其他镜像源](https://www.cnblogs.com/lvyongbo/p/14307293.html)
-保存，返回至原界面
+
+保存，返回至Linux原界面
