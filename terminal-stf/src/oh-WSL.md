@@ -4,7 +4,7 @@
 
 [windows-terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=zh-sg&gl=SG)
 
-打开终端, 输入
+打开windows-terminal, 输入
 
 `wsl`
 
@@ -22,9 +22,12 @@
 
 这是让你回到`~`
 
+之后要使用一点点vi
+
 `vi ./.cargo/config`
 
-要使用一点点vi
+在打开的新文件中写入下方链接中代码
 
 [更改为清华的镜像源](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git/)
-
+[或者其他镜像源](https://www.cnblogs.com/lvyongbo/p/14307293.html)
+保存，返回至原界面
