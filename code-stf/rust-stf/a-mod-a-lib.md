@@ -1,9 +1,9 @@
 mod for module
 
-it's a file
-
-you store structs & enum like definitaions
+it collect file names with `mod`
 
 lib for libirary
 
-you store 
+it collect path with `use`
+
+main is only place where `fn main()` is legit 

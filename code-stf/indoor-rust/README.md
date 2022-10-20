@@ -1,6 +1,6 @@
 > All of humanity's problems stem from man's inability to sit quietly in a room alone
 
-je kinda see the future it solve
+je kinda see the future it been solve
 
 je speaking it now
 
