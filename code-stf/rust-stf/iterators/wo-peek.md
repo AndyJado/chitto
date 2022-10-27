@@ -1,3 +1,3 @@
-look at `.next()` without cosuming the iterator
+.peek() needs impl Peekable for Iterator
 
-duckbubble should use this for KeywordReader
+look at `.next()` without advance the iterator
