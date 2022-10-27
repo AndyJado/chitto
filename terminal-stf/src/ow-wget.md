@@ -1,0 +1,1 @@
+wget -np -r -R "*.html" -e robots=off http://www.example.com/products/
