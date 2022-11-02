@@ -1,0 +1,1 @@
+what would be proper to test a function in a lib?
