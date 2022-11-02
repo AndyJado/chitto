@@ -1,4 +1,4 @@
-bug or feature?
+a typical builder
 
 ```rust
 // write only

@@ -12,5 +12,9 @@ tn `main.rs` | `lib.rs`
 
 `mod.rs` is a way to interact with `OS`
 
+## 2 default dir along with `src/`
 
+tests: cargo test --test
+
+examples: cargo run --example
 
