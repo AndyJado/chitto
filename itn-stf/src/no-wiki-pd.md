@@ -4,3 +4,11 @@
 
 但我听不懂
 
+---
+
+so I have this one thing I don't get
+
+I go ask wikipidi
+
+then I have like 42 things that I don't fkn get
+

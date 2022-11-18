@@ -1,4 +1,4 @@
 # fc
 
 .s: `$ fc`
-.h: fix commnad
+.h: fix command
