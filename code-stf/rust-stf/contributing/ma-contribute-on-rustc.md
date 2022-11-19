@@ -202,52 +202,17 @@ Sat Aug 27 13:20:23 CST 2022
 
 ---
 
-`trait system` & `borrowcheck`是RUST的两大新活
+当你没通过ui test
 
-我承包的是`borrowcheck`
+编译会不通过
 
-尽管知道该怎么玩了
+并在stdout 呕吐上百个错误信息
 
-但面前还有十几面墙要拆
+实际上使用一点基础的pipeline就能很好的提炼关键信息
 
-是日my day job给了我一些压力
+1. 将输出写入文件<LOG_FILE>(我使用的zellij编辑历史输出)
 
-我发脾气, 撂挑子不干
-
-不搞错, 我爱ma day job
-
-并为因其承担的一点点🤏社会责任感到快乐
-
-我闹脾气是其中让人变蠢的那部分事务
-
-我花几个小时把工作做完
-
-大部分时间花在了处理情感
-
-撕扯, 咀嚼, 吞咽
-
-我是想说, 这让我墙拆的有点急了
-
-我边拆边垒, 没有听大提琴
-
-听的MJ, 我想来点劲儿
-
-`Do you remember the time, how we`
-
-几个小时改了400行代码提交但
-
-`CI`说, 多处塌方
-
-但不告诉是哪块砖头出了问题
-
-呜,酸楚
-
-
-Sun Aug 28 13:24:16 CST 2022
-
----
-
-我不会了
+2. rg `^[+-]    ` <LOG_FILE_PATH>
 
 ```
 4  LL | fn transmute<'a, 'b>(x: Type<'a>, y: Type<'b>) -> (Type<'a>, Type<'b>) {
@@ -259,47 +224,21 @@ Sun Aug 28 13:24:16 CST 2022
 
 ```
 
-`-` 意思是这行应该有但你的代码没有
-
-`+` 意思是这行是你那代码跑出来的
-
-人家不要
-
-我的直觉是某个函数调用放错行了
-
-我找不到,跑过去改了一大通
-
-引用,解引,生命周期标注
-
-原文的&&我之前写成&的我严格改回&&
-
-原文的&String我改成了&*String
-
-没有用🤡
-
 Mon Aug 29 10:04:35 CST 2022
 
 ---
 
-我终于定位问题了!
+如果不会写macro是看不懂源码的
 
-好像掀起一块阴暗角落的大石块
+macro对rust意义重大
 
-鼻涕虫四处跑开
+可我也始终没有手动impl一边`AddToDiagnose`
 
-我感到解脱
+但是在学着写macro了
 
 Mon Aug 29 19:34:38 CST 2022
 
 ---
-
-掀起来的石头下面还藏着一块呢
-
-把修改的代码定位到一行
-
-穷举可能性, be like
-
-`impl <'a: 'b, 'b> for &'a &'b RegionName`
 
 没用, 我认输了
 
@@ -307,7 +246,7 @@ Mon Aug 29 19:34:38 CST 2022
 
 member说这是个BUG🐛
 
-我的问题解决了
+我想这就不是我的问题了把
 
 心气儿球也破了个洞
 
@@ -336,7 +275,6 @@ Fri Sep  2 16:21:48 CST 2022
 我感觉风雨欲坠
 
 
-
 Mon Sep  5 20:13:58 CST 2022
 
 ---
@@ -351,31 +289,27 @@ commit看起来漂亮了
 
 却给同步和review带来麻烦
 
-学乖了
+自己review三遍之前永远别public push
 
-使用
-
-`git revert <commit SHA>`
+永远
 
 Mon Sep 12 11:54:09 CST 2022
 
 ---
 
-作为变量传入的字符串中的英文也被要求翻译
+我遇到的bug好像没有被上游修复
 
-意思除了翻译一句话的意思
+但我不敢说
 
-还要翻译这一句话能够带来的所有意思
+我过ui test时候--bless了
 
-但不能比翻译一句话慢
+期待得到一点指引
 
-所以最好不要[string-based-dispatching](https://github.com/rust-lang/rust/pull/101686#discussion_r977448701)
+但两周过去了没有回复
 
-翻译官多少有点甩锅[n-m-p](https://github.com/projectfluent/fluent/issues/353)
+忐忑
 
-上游bug导致停工
+Sat Nov 19 19:52:24 CST 2022
 
-ad-hoc增加了基础设施
-
-但未能完全解决[English-in-descr](https://github.com/rust-lang/rust/pull/102623/commits/113e94369cb72a98648c12c263475821bbff7d9c#r1000288735)
+---
 
