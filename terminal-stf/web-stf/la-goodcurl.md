@@ -4,8 +4,12 @@ when you curl goodcurl.net
 
 [y/n]
 
-## utillity
+## utility(I wrote alias
 transfer.sh
+cheat.sh
 
 ## for fun
+
 parrot.live
+
+ntfy.sh (sadly not work for me

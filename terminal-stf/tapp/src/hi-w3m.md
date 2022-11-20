@@ -6,7 +6,7 @@
 
 `H` # 帮助文档
 
-`https_poxy` # 默认的可能不带s,记得改.
+`https_poxy` # 默认的可能不带s.
 
 `~/.w3m/keymap` # 都藏这了
 
