@@ -17,7 +17,7 @@ offical 建议[这里开始](https://github.com/rust-lang/rust/issues/100717)
 
 `#llvm`好大个怪物,下不动, 也编译不动.
 
-换个[起点](https://rustc-dev-guide.rust-lang.org/getting-started.html) [只看第一页]
+换个[起点](https://rustc-dev-guide.rust-lang.org/getting-started.html), (注：这里只用看第一页的内容
 
 ` git clone https://github.com/rust-lang/rust.git`
 
