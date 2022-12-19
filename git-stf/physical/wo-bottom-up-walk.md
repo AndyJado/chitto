@@ -45,4 +45,29 @@ $ git cat-file -t 0563f77d884e4f79ce95117e2d686d7d6e282887
 
 $ git cat-file -t af5626b4a114abcb82d63db7c8082c3c4756e51b
 
+# commit
+$ rm -fr .git greeting
+
+$ echo 'Hello, world!' > greeting
+
+$ git init
+
+$ git add greeting
+
+$ git log # this will fail, there are no commits!
+
+$ git ls-files --stage # list blob referenced by the index
+
+$ git write-tree # record the contents of the index in a tree
+
+$ echo "Initial commit" | git commit-tree 0563f77
+
+$ echo 5f1bc85745dcccce6121494fdd37658cb4ad441f > .git/refs/heads/master
+
+$ git update-ref refs/heads/master 5f1bc857
+
+$ git symbolic-ref HEAD refs/heads/master
+
+$ git log
+
 ```
