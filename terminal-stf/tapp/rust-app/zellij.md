@@ -1,3 +1,7 @@
+windows manager && tmux alternative
+
+---
+
 default configuration init with compact mode
 
 feels less invasive

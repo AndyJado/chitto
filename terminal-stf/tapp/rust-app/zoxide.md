@@ -1,5 +1,4 @@
-again the dummy way would be 
+`cd` alternative
 
 `cargo install zoxide`
 
-but I'd like to go with nix
