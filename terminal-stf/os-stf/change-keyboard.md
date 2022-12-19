@@ -6,6 +6,8 @@
 
 `brew install --cask karabiner-elements`
 
+## hammerspoon多屏控制窗口
+
 ## 修改左control
 
 `cmd space`进入`karabinar-element`
