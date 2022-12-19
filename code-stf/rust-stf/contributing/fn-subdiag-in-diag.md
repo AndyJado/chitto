@@ -1,0 +1,1 @@
+#\[subdiag\] should be the last field of a diag struct
