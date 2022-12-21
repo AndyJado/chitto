@@ -1,10 +1,8 @@
-好快的grep!
+`cargo install ripgrep`
 
-基础款fd:
+## 基础款
 
-`rg -l la`
-
-所有文件名里包含`la`的文件名
+`rg -F 'Diag'`
 
 ---
 
