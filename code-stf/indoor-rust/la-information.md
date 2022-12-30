@@ -1,3 +1,0 @@
-```rust
-trait inforamtion: Clone { }
-```
