@@ -1,7 +1,5 @@
 [Put all the files starting with same prefix in a folder in linux](https://stackoverflow.com/questions/21859795/put-all-the-files-starting-with-same-prefix-in-a-folder-in-linux)
 
-
-
 I have different files in some old data.
 
 They are in the same folder.

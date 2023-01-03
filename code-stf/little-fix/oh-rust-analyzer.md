@@ -1,0 +1,1 @@
+fix pro macro expand by open the project in the root direction

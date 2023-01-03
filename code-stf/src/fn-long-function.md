@@ -1,0 +1,1 @@
+don't write function more than 10 lines beg ya

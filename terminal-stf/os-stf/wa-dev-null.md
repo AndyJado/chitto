@@ -1,0 +1,1 @@
+echo "not err" 1> log.txt 2> /dev/null

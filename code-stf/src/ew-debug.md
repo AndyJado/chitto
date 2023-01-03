@@ -1,1 +1,1 @@
-I've not realize the neccesity of debug yet
+debug or write test?

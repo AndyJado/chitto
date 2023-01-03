@@ -1,0 +1,1 @@
+nit: refers to a small imperfection or a minor glitch in a system or piece of software
